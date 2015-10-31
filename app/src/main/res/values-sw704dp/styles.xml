@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="extended_pad_style">
+        <item name="android:layout_gravity">bottom|left</item>
+    </style>
+    <style name="num_pad_style">
+        <item name="android:layout_gravity">bottom|right</item>
+    </style>
+
+    <style name="num_pad_padding">
+        <item name="android:paddingRight">24dp</item>
+    </style>
+    <style name="extended_pad_padding">
+        <item name="android:paddingLeft">24dp</item>
+    </style>
+</resources>

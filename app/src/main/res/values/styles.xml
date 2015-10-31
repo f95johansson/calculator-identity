@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="numPadNumber" >
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/key_pad_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">@dimen/key_pad_size</item>
+        <item name="android:layout_height">@dimen/key_pad_size</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:onClick">numpadPress</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/ripple_key_pad</item>
+    </style>
+
+    <style name="elevation">
+        <item name="android:background">@drawable/shadow_left</item>
+    </style>
+
+
+    <!-- Styles for different orientations -->
+    <style name="history_align">
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_above">@+id/keypad</item>
+    </style>
+    <style name="key_pad_align">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="menu_button_alignment">
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+
+    <!-- Styles for different sizes -->
+    <style name="num_pad_padding">
+        <item name="android:paddingRight">16dp</item>
+    </style>
+    <style name="extended_pad_padding">
+        <item name="android:paddingLeft">16dp</item>
+    </style>
+</resources>

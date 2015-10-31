@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:id="@+id/num_pad"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    style="@style/num_pad_padding" >
+
+    <TableRow
+        android:layout_width="fill_parent" >
+        <TextView
+            android:text="@string/seven"
+            style="@style/numPadNumber" />
+        <TextView
+            android:text="@string/eight"
+            style="@style/numPadNumber" />
+        <TextView
+            android:text="@string/nine"
+            style="@style/numPadNumber" />
+        <TextView
+            android:text="@string/divide"
+            style="@style/numPadNumber" />
+    </TableRow>
+
+
+    <TableRow>
+        <TextView
+            android:text="@string/four"
+            style="@style/numPadNumber" />
+        <TextView
+            android:text="@string/five"
+            style="@style/numPadNumber" />
+        <TextView
+            android:text="@string/six"
+            style="@style/numPadNumber" />
+        <TextView
+            android:text="@string/times"
+            style="@style/numPadNumber" />
+    </TableRow>
+
+
+    <TableRow>
+        <TextView
+            android:text="@string/one"
+            style="@style/numPadNumber" />
+        <TextView
+            android:text="@string/two"
+            style="@style/numPadNumber" />
+        <TextView
+            android:text="@string/three"
+            style="@style/numPadNumber" />
+
+        <TextView
+            android:text="@string/minus"
+            style="@style/numPadNumber" />
+    </TableRow>
+
+
+    <TableRow>
+        <TextView
+            android:text="@string/dot"
+            style="@style/numPadNumber" />
+        <TextView
+            android:text="@string/zero"
+            style="@style/numPadNumber" />
+        <TextView
+            android:text="@string/equals"
+            style="@style/numPadNumber" />
+        <TextView
+            android:text="@string/plus"
+            style="@style/numPadNumber" />
+    </TableRow>
+
+
+</TableLayout>
