@@ -19,7 +19,7 @@ import android.widget.PopupMenu;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-public class Calculator extends AppCompatActivity {
+public class CalculatorGUI extends AppCompatActivity {
 
     private PopupMenu popup;
 
