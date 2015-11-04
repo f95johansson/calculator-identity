@@ -7,39 +7,39 @@
     <string name="menu_settings">Settings</string>
 
 
-    <!-- number for numpad -->
-    <string name="plus"  >+</string>
-    <string name="minus" >-</string>
-    <string name="times" >×</string>
-    <string name="divide">÷</string>
-    <string name="equals">=</string>
-    <string name="dot"   >.</string>
-    <string name="zero"  >0</string>
-    <string name="one"   >1</string>
-    <string name="two"   >2</string>
-    <string name="three" >3</string>
-    <string name="four"  >4</string>
-    <string name="five"  >5</string>
-    <string name="six"   >6</string>
-    <string name="seven" >7</string>
-    <string name="eight" >8</string>
-    <string name="nine"  >9</string>
+    <!-- numbers for numpad -->
+    <string name="symbol_plus"   >+</string>
+    <string name="symbol_minus"  >-</string>
+    <string name="symbol_times"  >×</string>
+    <string name="symbol_divide" >÷</string>
+    <string name="symbol_equals" >=</string>
+    <string name="symbol_dot"    >.</string>
+    <string name="symbol_zero"   >0</string>
+    <string name="symbol_one"    >1</string>
+    <string name="symbol_two"    >2</string>
+    <string name="symbol_three"  >3</string>
+    <string name="symbol_four"   >4</string>
+    <string name="symbol_five"   >5</string>
+    <string name="symbol_six"    >6</string>
+    <string name="symbol_seven"  >7</string>
+    <string name="symbol_eight"  >8</string>
+    <string name="symbol_nine"   >9</string>
 
     <!-- symbols for extended pad -->
-    <string name="pi"             >π</string>
-    <string name="e"              >e</string>
-    <string name="percent"        >%</string>
-    <string name="faculty"        >n!</string>
-    <string name="sin"            >sin</string>
-    <string name="cos"            >cos</string>
-    <string name="tan"            >tan</string>
-    <string name="log"            >log</string>
-    <string name="ln"             >ln</string>
-    <string name="mod"            >mod</string>
-    <string name="abs"            >|x|</string>
-    <string name="exponent"       >x<sup><small>n</small></sup></string>
-    <string name="sqrt"           >√</string>
-    <string name="starParentheses">(</string>
-    <string name="endParentheses" >)</string>
-    <string name="x"              >x</string>
+    <string name="symbol_pi"              >π</string>
+    <string name="symbol_e"               >e</string>
+    <string name="symbol_percent"         >%</string>
+    <string name="symbol_faculty"         >n!</string>
+    <string name="symbol_sin"             >sin</string>
+    <string name="symbol_cos"             >cos</string>
+    <string name="symbol_tan"             >tan</string>
+    <string name="symbol_log"             >log</string>
+    <string name="symbol_ln"              >ln</string>
+    <string name="symbol_mod"             >mod</string>
+    <string name="symbol_abs"             >|x|</string>
+    <string name="symbol_exponent"        >x<sup><small>n</small></sup></string>
+    <string name="symbol_sqrt"            >√</string>
+    <string name="symbol_starParentheses" >(</string>
+    <string name="symbol_endParentheses"  >)</string>
+    <string name="symbol_x"               >x</string>
 </resources>

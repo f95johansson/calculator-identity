@@ -18,9 +18,10 @@
 
         <TextView android:id="@+id/history_text"
             android:freezesText="true"
+            android:textIsSelectable="true"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:textSize="38sp" /> <!-- TODO change to actual value -->
+            android:textSize="@dimen/font_size_calculation_history" />
     </ScrollView>
 
     <ImageButton android:id="@+id/menu_button"

@@ -8,71 +8,71 @@
     <TableRow
         android:layout_width="fill_parent" >
         <TextView
-            android:text="@string/pi"
+            android:text="@string/symbol_pi"
             style="@style/numPadNumber" />
         <TextView
-            android:text="@string/e"
+            android:text="@string/symbol_e"
             style="@style/numPadNumber" />
         <TextView
-            android:text="@string/percent"
+            android:text="@string/symbol_percent"
             style="@style/numPadNumber" />
         <TextView
-            android:text="@string/faculty"
-            style="@style/numPadNumber" />
-    </TableRow>
-
-
-    <TableRow>
-        <TextView
-            android:text="@string/sin"
-            style="@style/numPadNumber"
-            android:textSize="32sp" />
-        <TextView
-            android:text="@string/mod"
-            style="@style/numPadNumber"
-            android:textSize="32sp" />
-        <TextView
-            android:text="@string/abs"
-            style="@style/numPadNumber" />
-        <TextView
-            android:text="@string/exponent"
+            android:text="@string/symbol_faculty"
             style="@style/numPadNumber" />
     </TableRow>
 
 
     <TableRow>
         <TextView
-            android:text="@string/cos"
+            android:text="@string/symbol_sin"
             style="@style/numPadNumber"
             android:textSize="32sp" />
         <TextView
-            android:text="@string/log"
+            android:text="@string/symbol_mod"
             style="@style/numPadNumber"
             android:textSize="32sp" />
         <TextView
-            android:text="@string/ln"
-            style="@style/numPadNumber"
-            android:textSize="32sp" />
-
+            android:text="@string/symbol_abs"
+            style="@style/numPadNumber" />
         <TextView
-            android:text="@string/sqrt"
+            android:text="@string/symbol_exponent"
             style="@style/numPadNumber" />
     </TableRow>
 
 
     <TableRow>
         <TextView
-            android:text="@string/tan"
+            android:text="@string/symbol_cos"
             style="@style/numPadNumber"
             android:textSize="32sp" />
         <TextView
-            android:text="@string/starParentheses"
+            android:text="@string/symbol_log"
+            style="@style/numPadNumber"
+            android:textSize="32sp" />
+        <TextView
+            android:text="@string/symbol_ln"
+            style="@style/numPadNumber"
+            android:textSize="32sp" />
+
+        <TextView
+            android:text="@string/symbol_sqrt"
+            style="@style/numPadNumber" />
+    </TableRow>
+
+
+    <TableRow>
+        <TextView
+            android:text="@string/symbol_tan"
+            style="@style/numPadNumber"
+            android:textSize="32sp" />
+        <TextView
+            android:text="@string/symbol_starParentheses"
             style="@style/numPadNumber" />
         <TextView
-            android:text="@string/endParentheses"
+            android:text="@string/symbol_endParentheses"
             style="@style/numPadNumber" />
         <TextView
-            android:text="@string/x"
+            android:text="@string/symbol_x"
             style="@style/numPadNumber" />
     </TableRow>
 
